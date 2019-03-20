@@ -16,6 +16,6 @@ class Post < ActiveRecord::Base
     self.title = self.title.titlecase
   end
 
-  def last_updated 
+  def last_updated
   end
 end
